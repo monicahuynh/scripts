@@ -13,6 +13,7 @@ def calculate(x)
 		puts "Something went wrong!"
 	else
 	puts "The total tip you should leave is: $#{tip}!"
+	puts "Thank you for using Tip Calculator!"
 	end
 end
 
@@ -23,9 +24,3 @@ if bill.to_i == 0
 	puts "Something went wrong!"
 elsif calculate(bill)	
 end
-
-#validation check for input
-#if bill % 2 == 0 
-# 	puts "Thanks!"
-#else puts "That cannot be calculated!"
-#end
