@@ -1,4 +1,5 @@
 #Tip Calculator
+#Calculates based of percentile inputed
 require 'money'
 
 #method determining tip calculation
